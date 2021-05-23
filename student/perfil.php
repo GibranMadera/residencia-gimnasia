@@ -63,9 +63,11 @@ echo'<main id="main" data-aos="fade-in">
      
     <label for="control-label" >Direccion: '.$direccion.'<a ></a> </label>
   </div>
-
-
-      </div>
+  
+  <div class="form-group">
+     
+  <label for="control-label" ><a href="terminos.php">Terminos y condiciones.</a> </label>
+</div>
 
     </div>
 
@@ -76,7 +78,9 @@ echo'<main id="main" data-aos="fade-in">
 
 </main><!-- End #main -->';
 ?>
-
+<?php
+incluirTemplate('calendar');
+?>
 
 <?php
 incluirTemplate('footer');
